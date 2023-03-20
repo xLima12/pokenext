@@ -1,9 +1,7 @@
-import { Montserrat } from 'next/font/google'
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Head from "next/head";
 
-const montserrat = Montserrat({ subsets: ['latin'] })
 
 export default function Layout({ children }) {
     return (
